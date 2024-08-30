@@ -1,5 +1,7 @@
 # Zerops x Nitro - Static
 
-use `SERVER_PRESET=zerops-static` for static
+A Basic Nitro App Deployed on Static Service.
 
-Look at the [nitro quick start](https://nitro.unjs.io/guide#quick-start) to learn more how to get started.
+![Nitro](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-nitro.svg)
+
+Use `SERVER_PRESET=zerops-static` for Static.
