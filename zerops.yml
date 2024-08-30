@@ -1,0 +1,13 @@
+zerops:
+  - setup: app
+    build:
+      base: nodejs@20
+      envVariables:
+        SERVER_PRESET: zerops-static
+      buildCommands:
+        - pnpm i
+        - pnpm build
+      deployFiles:
+        - .zerops/output/static/~
+    run:
+      base: static
